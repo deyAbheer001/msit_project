@@ -114,6 +114,7 @@ export default function ProductCategories() {
             style={{
               width: image.width,
             }}
+            href={"/artists/"+image.title.split(' ')[0].toLowerCase()}
           >
             <Box
               sx={{

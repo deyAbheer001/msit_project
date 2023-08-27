@@ -43,7 +43,7 @@ function ProductHowItWorks() {
       >
         <Box
           component="img"
-          src="/static/themes/onepirate/productCurvyLines.png"
+          src="/productCurvyLines.png"
           alt="curvy lines"
           sx={{
             pointerEvents: 'none',

@@ -21,9 +21,11 @@ function ProductValues() {
       <Container sx={{ mt: 15, mb: 30, display: 'flex', position: 'relative' }}>
         <Box
           component="img"
-          src="/static/themes/onepirate/productCurvyLines.png"
+          src="/productCurvyLines.png"
           alt="curvy lines"
-          sx={{ pointerEvents: 'none', position: 'absolute', top: -180 }}
+          sx={{ pointerEvents: 'none', position: 'absolute', top: -180,
+          opacity: 0.7
+          }}
         />
         <Grid container spacing={5}>
           <Grid item xs={12} md={4}>
@@ -52,7 +54,7 @@ function ProductValues() {
             <Box sx={item}>
               <Box
                 component="img"
-                src="https://images.unsplash.com/photo-1506157786151-b8491531f063?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxleHBsb3JlLWZlZWR8MTR8fHxlbnwwfHx8fHw%3D&auto=format&fit=crop&w=500&q=60"
+                src="https://static.thenounproject.com/png/1265766-200.png"
                 alt="graph"
                 sx={{ height: 200 }}
               />
@@ -72,7 +74,7 @@ function ProductValues() {
             <Box sx={item}>
               <Box
                 component="img"
-                src="https://images.unsplash.com/photo-1510915361894-db8b60106cb1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxleHBsb3JlLWZlZWR8OXx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
+                src="https://www.svgrepo.com/download/146896/price-tag.svg"
                 alt="clock"
                 sx={{ height: 200 }}
               />
